@@ -1,0 +1,9 @@
+{
+	"name": "UnlimitedModding",
+	"author": "Kiobu",
+	"version": "1.0.0",
+	"license": "MIT",
+	"src": {
+		"src/init.js": "TamperModLoad"
+	}
+}
