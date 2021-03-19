@@ -12,7 +12,7 @@ exports.mod = () => {
 				try {
 					curritem._props["Slots"].forEach((el) => {
 						try {
-							el._props.filters = []
+							el._props.filters = [{ "Filter": [] }]
 							cnt++;
 						} catch (_) {
 							return; // This item doesn't have a 'filters' array.
